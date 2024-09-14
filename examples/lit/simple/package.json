@@ -1,0 +1,19 @@
+{
+  "name": "@tanstack/query-example-lit-simple",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/query-core": "workspace:*",
+    "@tanstack/lit-query": "workspace:*",
+    "lit": "3.1.4"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "vite": "^5.2.11"
+  }
+}
