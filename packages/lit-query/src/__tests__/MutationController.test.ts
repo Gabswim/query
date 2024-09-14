@@ -1,3 +1,5 @@
+// NOTE: WIP, for now it is just a strict copy of QueryController
+
 import { defineCE, fixture, waitUntil } from '@open-wc/testing-helpers'
 import { when } from 'jest-when'
 import { getNodeFor, setUpQueryClient } from '../testHelpers'
@@ -12,7 +14,7 @@ import {
 
 const tag = defineCE(ReadOneTodoComponent)
 
-describe('QueryController', () => {
+describe('MutationController', () => {
   beforeEach(setUpQueryClient)
 
   describe('pending', () => {
