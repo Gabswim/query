@@ -21,7 +21,7 @@ export type { QueryObserverOptions }
  */
 export class QueryController<
   TQueryFnData = unknown,
-  TError = unknown,
+  TError = Error | null,
   TData = TQueryFnData,
   TQueryData = TQueryFnData,
   TQueryKey extends QueryKey = QueryKey,
