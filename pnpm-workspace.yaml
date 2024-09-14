@@ -2,6 +2,7 @@ packages:
   - 'packages/*'
   - 'integrations/*'
   - 'examples/angular/*'
+  - 'examples/lit/*'
   - 'examples/react/*'
   - 'examples/solid/*'
   - 'examples/svelte/*'
