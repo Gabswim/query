@@ -1,6 +1,7 @@
 import { QueryObserver } from '@tanstack/query-core'
 import { getQueryClient } from './queryClientHelper'
 import type {
+  DefaultError,
   QueryKey,
   QueryObserverOptions,
   QueryObserverResult,
@@ -21,7 +22,7 @@ export type { QueryObserverOptions }
  */
 export class QueryController<
   TQueryFnData = unknown,
-  TError = Error | null,
+  TError = DefaultError,
   TData = TQueryFnData,
   TQueryData = TQueryFnData,
   TQueryKey extends QueryKey = QueryKey,
